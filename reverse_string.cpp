@@ -1,26 +1,26 @@
 #include <iostream>
 using namespace std;
 
-void reverseString(string &str, int index)
-{
-    if (index < 0)
-    {
-        return;
-    }
-
-    cout << str[index];
-    reverseString(str, index - 1);
-}
-
 int main()
 {
     string str;
+    cout << "Enter string : ";
+    cin >> str;
 
-    cout << "Enter a string: ";
-    getline(cin, str);
+    int dope = str.length();
 
-    cout << "Reversed string: ";
-    reverseString(str, str.length() - 1);
+    for (int i = 0; i < dope/2; i++)
+    {
+        char temp = str[i];
+        str[i] = str[dope - 1 - i];
+        str[dope - 1 - i] = temp;
+    }
+
+    cout << "Reversed string : ";
+    for (int i = 0; i < dope; i++)
+    {
+        cout << str[i];
+    }
 
     return 0;
 }

@@ -3,26 +3,23 @@ using namespace std;
 
 int main()
 {
+
     int count;
     cout << "Enter size : ";
     cin >> count;
-
     int arr[count];
-    cout << "Enter elements : ";
+    cout << "Enter " << count << " elements : ";
+
     for (int i = 0; i < count; i++)
     {
         cin >> arr[i];
     }
-    for (int i = 0; i < count / 2; i++)
-    {
-        int temp = arr[i];
-        arr[i] = arr[count - 1 - i];
-        arr[count - 1 - i] = temp;
-    }
-    cout << "Reverse array : ";
+    int sum = 0;
+    cout << "Cumulative sum : " << endl;
     for (int i = 0; i < count; i++)
     {
-        cout << arr[i] << " ";
+        sum += arr[i];
+        cout << sum << " ";
     }
 
     return 0;
