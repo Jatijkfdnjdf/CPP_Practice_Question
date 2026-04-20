@@ -1,0 +1,30 @@
+C++ is object oriented based programming
+
+Fully object oriented programming : simula and smalltalk
+
+1962 : simula1(kristian nygarad & olle johan) is simulation language
+
+1967 : simula67(First OOP's)
+
+1969-1973 : C-language programming (Dennis ritche) invented in (At & T bell lab)
+
+1972 : UnixOS by Dennis ritche & ken thompson based on C
+
+1979 : (Bajarne strostrup) Makes C with classes
+
+1983 : C++ (Renamed)
+
+1985 : First commercial version were released with compiler(C front)
+
+1989 : C++ 2.0 were released 
+
+C++ is a blend of C and simula.
+
+Today we are using C++ 24th version
+
+iostream is combination of two classes : 1. istream class
+                                         2. ostream class
+
+If any operator giving different output in different tasks is called operations overloading
+
+

@@ -1,0 +1,13 @@
+It is the mechanism by which one class accquire the properties of another classs 
+It promotes class reuseability, hierarchical classification(), extensibility and polymorphism(many-form)
+
+five types of inheritance : 
+
+    1. Single inheritance : 1 base and 1 derived class
+    2. multiple inheritance : multiple parent and single child
+    3. multilevel inheritance : C is derived by B and B is derived by A
+    4. hierarchical inheritance : single parent and multiple child classes
+    5. hybrid inheritance : combination of multiple inheritance
+    
+
+Diamond problems : Occurs in multiple inheritance when a class inherit from two class that both inherit from same base class this create heavy duty because derived class receive two copies of the base class the inheritance structure form a diamond shape that's why it is called diamond problem.

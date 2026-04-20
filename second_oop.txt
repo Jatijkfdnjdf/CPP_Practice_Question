@@ -1,0 +1,41 @@
+Constructor : It is a special memeber function which is used to initialize object of it's class. It is special because it's name is same as class name. The constructor is invoked whenever object of it's associated class is created. It is called constructor because it constructs the value of class data member.
+
+
+standard function:
+
+    syntax : 
+
+            returntype function_name(list_of_parameter){
+                body of function;
+            }
+
+
+special function contain : 1.  caller
+                           2.  constructor
+
+
+characteristics of class :  1. Constructor should be declare in a public section
+                            2. Constructor do not have return type
+                            3. constructor can not be inherited through a derived class from based class
+                            4. The constructor cannot be virtual
+                            5. We cannot refer constructor address
+                            6. An object with constructor cannot we used as member of a union
+
+
+Type of constructor : 
+
+    1. Default constructor : 
+    2. parameterized constructor : 
+    3. copy constructor : 
+    4. Move constructor : 
+
+
+{
+    Encapsulation : Wrap the multiple things in a single unit (:: = scope resolution)
+}
+
+We can make mutiple constructor and compiler can verify it through the arguments
+
+constructor overloading : 1. The constructor name should be same
+                          2. The constructor should have different number of parameter. 
+                          3. If the number of parameter are same the type of parameter should be different

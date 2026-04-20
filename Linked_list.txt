@@ -1,0 +1,28 @@
+LL : Insert
+            1. End
+            2. Start
+            3. At position
+    Delete
+            1. End
+            2. Start
+            3. At position
+    Search
+    Update
+    Sort
+    Reverse
+    Count
+
+
+
+
+Array : Insert
+                1. End
+                2. At position
+        Delete
+        Search
+        Update
+        Sort
+        Reverse
+        Count
+        
+                

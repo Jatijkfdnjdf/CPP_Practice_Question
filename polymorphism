@@ -1,0 +1,26 @@
+This property makes the same entity such as functions and operator perform differently in different scenerio 
+
+1. compile time or Early static binding: compiler at the compilation stage knows which functions to execute during the progess execution. It matches
+                                        the overload functions or operators with the number and type of parameter at compile time.
+
+                We can achieve it by two methods
+                    1.Function overloading : FO can achieve through following rules
+                                        1. the names of functions are same and in same class
+                                        2. the numbers of paramters should be different if any case the number of parameters are same the type of parameters should be different(Compiler ignores the return type)
+                                        
+                    2.Operator overloading : 
+
+
+2. Run time or Dynamic late binding: 
+
+
+
+Virtual function : it is same as standard member function this function declare and defined in base class with virtual keyword and redefine or override in derive clas with same prototypes
+
+pure virtual function : it is declare in base class assigning with zero to the functions
+
+virtual void display() = 0;
+
+friend function :
+
+ (friend void display(){})

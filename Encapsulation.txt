@@ -1,0 +1,5 @@
+Not just public/private access
+    Data hiding
+    getter & setter
+    Logic validation
+    Read only access
